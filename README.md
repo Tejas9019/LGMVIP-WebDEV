@@ -1,5 +1,0 @@
-# LGMVIP-WebDEV
-skskksklksdjicoiijsado;
-kdscklsdnlknsdvnhoskdnvol
-kldsncknsdvhi
-kJADCFHNldchu
