@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <title>Document</title>
+    <script>
+        function submitForm() {
+            let name = document.getElementById("name").Value;
+            let phone = document.getElementById("phone").Value;
+            let email = document.getElementById("email").Value;
+            let textarea = document.getElementById("textarea").Value;
+
+            alert (" Name: "+name+" "+"Phone number: "+phone +" "+"E-Mail: "+email+" "+"Message: "+textarea)
+        }
+    </script>
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Artistic  View Inc. established in 2004 specializes in custom Interior Design for  residential or commercial projects. Our design philosophy is to create  innovative living environments for our clients. We create the style you  desire, whether it is traditional, transitional, or modern.  ";
+        }
+        </script>
+</head>
+<body>
+    
+    <div class="Home">
+        <div style="display: flex;">
+        <div style="padding: 20px;">
+        <img src="fine-arts.png" alt="icon" width="40px" height="50px">
+    </div>
+    <div style="padding: 20px 10cm;">
+        <a href="">Home</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Pricing">Pricing</a>
+        <a href="#Team">Team</a>
+        <a href="#Blog">Blog</a>
+        <a href="#Contact">Contact</a>
+    </div>
+</div>
+       <div style="padding: 20px 70px; font-size: 40px;">
+        <p id="demo1" style="color: white;"></p>
+        <script>
+        document.getElementById("demo1").innerHTML = "Artistic Views";
+        </script>
+     </div>
+      <div style="color: white;font-size: 22px;padding: 20px 10cm 20px 70px;">
+        <p id="demo">What is all about Artistic views ?</p>
+        <div style="padding-top: 20px;">
+        <button class="btn-j" type="button" onclick="myFunction()" style="padding: 10px;background-color: rgb(236, 205, 30);border: none;border-radius: 5px;font-size: 17px;">Click on me</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="Welcome">
+             <div class="Intro-field" style="width: 100%;">
+            <h1 style="text-align: center;">Welcome to Arts</h1>
+            <div style="display: flex;">
+                <div class="col-sm-1" style="padding: 30px 20px 10px 350px;width: 100%;text-align: center;font-size: 18px;">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, autem et, quos omnis ratione consequatur unde placeat accusantium tenetur incidunt dicta ullam beatae earum explicabo distinctio. Distinctio velit consequuntur quo.</p>
+
+                </div>
+                <div class="col-sm-2" style="width: 100%;text-align: center;">
+                      <img class="img-hov" src="Arts.jpg" alt="" width="200px" height="200px">
+                </div>
+            </div>
+        </div>
+            <div style="display:flex;padding: 30px 0px;justify-content: center;align-items: center;">
+                   <p style="text-align: center;padding: 0px 20px;"><img class="icon-hover" src="notification.png" alt="" width="30px" height="30px"><br>Notifications</p>
+                   <p style="text-align: center;padding: 0px 25px;"><img class="icon-hover" src="email.png" alt="" width="30px" height="30px"><br>E-Mails</p>
+                    <p style="text-align: center;padding: 0px 25px;"><img class="icon-hover" src="brochure.png" alt="" width="30px" height="30px"><br>Brochure</p>
+        </div>
+        <div style="text-align: center;">
+            <input class="btn-hover" type="button" value="Learn More" style="padding: 10px;border: none;border-radius: 10px;">
+        </div>
+    </div>
+
+     <hr style="color: gray;margin:40px 500px 5px;height: 12px;border: 0;box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);border-radius: 30px;">
+
+    <div class="Projects" id="Projects">
+        <div><h1 style="text-align: center;">Projects</h1></div>
+        <div class="align" style="display: flex;width: 100%;padding: 10px 0px;"> 
+        <div class="col-sm-1" style="background-color: rgb(236, 228, 228);">
+                 <img src="Andreas.jpg" alt="" width="375px" height="200px">
+                 <p>Saint Andreas Beach or Agios Andreas, is a stone’s throw from Katakolon Port, located just 4 km away! Hidden behind the hill of Katakolon.</p>
+                 <div style="text-align: center;padding: 10px;">
+                 <input class="btn-hov" type="button" value="Explore More" style="padding: 10px;border-radius: 15px;border: none;">
+                </div>
+        </div>
+        <div class="col-sm-2" style="background-color: rgb(255, 204, 64);">
+                 <img src="Beach.jpg" alt="" width="375px" height="200px">
+                 <p> A beach is a narrow, gently sloping strip of land that lies along the edge of an ocean, lake, or river.</p>
+                 <div style="text-align: center;padding: 25px 0px;">
+                 <input class="btn-hov" type="button" value="Explore More" style="padding: 10px;border-radius: 15px;border: none;">
+                </div>
+        </div>
+        <div class="col-sm-3" style="background-color: rgb(212, 207, 207);">
+                 <img src="Flower.jpg" alt="" width="379px" height="200px">
+                 <p> Making flower arrangements by itself is a great floral art. Making artificial flowers, silk flowers,and flower widgets constitute other popular forms of flower art.</p>
+                 <div style="text-align: center;padding: 10px 0px;">
+                 <input class="btn-hov" type="button" value="Explore More" style="padding: 10px;border-radius: 15px;border: none;">
+                </div>
+        </div>
+        <div class="col-sm-4" style="background-color: rgb(236, 232, 232);">
+                 <img src="Pencil-sketch.jpg" alt="" width="389px" height="200px">
+                 <p>Pencil Sketch Effects is a Fun Sketching photo editor app to make make your photos look artistic.</p>
+                 <div style="padding: 20px;text-align: center;">
+                 <input class="btn-hov" type="button" value="Explore More" style="padding: 10px;border-radius: 15px;border: none;">
+                 </div>
+        </div>
+    </div>
+    </div>
+
+    <hr style="color: gray;margin:10px 500px 5px;height: 12px;border: 0;box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);border-radius: 30px;">
+
+    <div class="Pricing" id="Pricing">
+        <h1 style="text-align: center;">Pricing</h1>
+        <div style="padding: 20px 200px;">
+            <table style="width: 100%;display: flex;align-items: center;justify-content: center;">
+                   <tr style="font-size: 20px;font-weight: bold;margin: 10px;">
+                       <td class="price">Standard Plan</td>
+                       <td class="price">Business Plan</td>
+                       <td class="price">Premium Plan</td>
+                   </tr>
+                   <tr style="font-size: 19px;color: rgb(182, 178, 178);margin: 10px;">
+                       <td class="price">Free</td>
+                       <td class="price">195/Month</td>
+                       <td class="price">145/Month</td>
+                   </tr>
+                   <tr style="font-size: 17px;">
+                       <td class="price">Painting and Pictures of viewers <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eius dicta pariatur aut, .</td>
+                       <td class="price">Profile Arts with unique paintings and sketches for big mansions <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores expedita officia !</td>
+                       <td class="price">Highly profiled and superior paintings for the famed museums and for others <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. </td>
+                   </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="Team" id="Team">
+        <h1 style="text-align: center;">Team</h1>
+        <div>
+            <table class="table-hover" style="width: 100%;display: flex;align-items: center;justify-content: center;padding: 15px 0px 0px;">
+                <tr>
+                    <td><img src="Team-1.jfif" alt="" width="150px" height="150px" style="border-radius: 50%;"></td>
+                    <td><img src="Team-4.jfif" alt=""  width="150px" height="150px" style="border-radius: 50%;"></td>
+                    <td><img src="Team-3.jfif" alt=""  width="150px" height="150px" style="border-radius: 50%;"></td>
+                </tr>
+                <tr>
+                <td>MATT ALEX</td>
+                <td>SARA JOHNSON</td>
+                <td>CHRIS PHILIPS</td>
+            </tr>
+            <tr>
+                <td>Creative Head</td>
+                <td>Art Director</td>
+                <td>Senior designer</td>
+            </tr>
+
+            </table>
+            <table class="table-hover" style="width: 100%;display: flex;align-items: center;justify-content: center;padding: 10px 0px 0px;">
+                <tr>
+                    <td><img src="Team-6.jfif" alt="" width="150px" height="150px" style="border-radius: 50%;"></td>
+                    <td><img src="Team-2.jfif" alt=""  width="150px" height="150px" style="border-radius: 50%;"></td>
+                    <td><img src="Team-5.jfif" alt=""  width="150px" height="150px" style="border-radius: 50%;"></td>
+                </tr>
+                <tr>
+                <td>ALIZA</td>
+                <td>JIMMY SMITH</td>
+                <td>CLEIEN JOHN</td>
+            </tr>
+            <tr>
+                <td>Marketing Manager</td>
+                <td>SEO Monster</td>
+                <td>Senior Manager</td>
+            </tr>
+
+            </table>
+        </div>
+
+    </div>
+
+    <div class="Blog" id="Blog">
+         <h1 style="text-align: center;">Blog</h1>
+         <div style="display: flex;align-items: center;justify-content: center;padding: 15px 200px 0px;">
+             <table  style="width: 100%;">
+                <tr class="table-blog">
+                    <td class="table-blog"><img src="Blog-1.jfif" alt="" width="150px" height="150px"></td>
+                    <td class="table-blog"><img src="Blog-2.jfif" alt="" width="150px" height="150px"></td>
+                    <td class="table-blog"><img src="Blog-3.jfif" alt="" width="150px" height="150px"></td>
+                </tr>
+                <tr>
+                    <td class="table-blog">LOREM IPSUM DOLOR SIT AMET</td>
+                    <td class="table-blog">LOREM IPSUM DOLOR SIT AMET</td>
+                    <td class="table-blog">LOREM IPSUM DOLOR SIT AMET</td>
+                </tr>
+                <tr>
+                    <td class="table-blog">15 Jun,2015</td>
+                    <td class="table-blog">15 Jun,2015</td>
+                    <td class="table-blog">15 Jun,2015</td>
+                 </tr>
+                 <tr>
+                     <td class="table-blog">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, et ex vitae nostrum optio </td>
+                     <td class="table-blog">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, et ex vitae nostrum optio </td>
+                     <td class="table-blog">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, et ex vitae nostrum optio </td>
+                 </tr>
+
+             </table>
+         </div>
+    </div>
+
+    <div class="Contact" id="Contact">
+        <div style="width: 100%;display: flex;">
+        <div class="col-sm-1" style="width: 100%;">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124416.28901850633!2d77.53010185820314!3d12.971273700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1679116dc68f%3A0xe15d321abeb51172!2sWipro%20Centre!5e0!3m2!1sen!2sin!4v1630677186824!5m2!1sen!2sin" width="750px" height="470px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="col-sm-2" style="padding: 30px 40px ;background-color: rgb(248, 225, 93);width: 100%;">
+            <h1>Contact</h1><br>
+            <label for="form" style="font-size: 22px;">NAME :</label><br> <input type="text" name="name" id="name" style="padding: 5px;"><br>
+            <label for="form" style="font-size: 22px;">PHONE NUMBER:</label><br> <input type="text" name="phone" id="phone" style="padding: 5px;"><br>
+            <label for="form" style="font-size: 22px;">E-MAIL :</label><br> <input type="email" name="email" id="email"style="padding: 5px;"><br>
+            <label for="form" style="font-size: 22px;">MESSAGE :</label><br> <textarea name="textarea" id="textarea" cols="50" rows="7" maxlength="355"></textarea><br>
+            <div style="padding: 10px 0px;">
+            <input class="btn" type="submit" value="SEND NOW" style="padding: 10px 100px;background-color: rgb(145, 16, 145);color: white;border: none;border-radius: 5px;">       
+        </div>        
+        </div>
+    </div>
+    </div>
+</body>
+</html>
