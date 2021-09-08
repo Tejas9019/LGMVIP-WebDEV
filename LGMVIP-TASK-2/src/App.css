@@ -1,0 +1,172 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+header{
+  display: flex;
+  align-items: center;
+  font-family: 'Nunito', sans-serif;
+  justify-content: space-between;
+  background: rgb(90, 90, 90);
+  padding: 1rem 10%;
+  box-shadow: 0 1rem 1rem rgba(65, 43, 43, 0.1);
+}
+header .logo{
+  font-size: 30px;
+  font-weight: bolder;
+  color: #fff;
+}
+button{
+  background: #fff;
+  border-radius: 50%;
+  padding: .8rem 2rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(10, 10, 10);
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: .3s ease;
+}
+button:hover{
+  color: rgb(242, 238, 247);
+  background: gold;
+}
+@media only screen and (max-width: 414px) {
+  header .logo{
+      font-size: 1.2rem;
+  }
+  button{
+      padding: .4rem 1rem;
+      font-size: 1rem;
+  }
+}
+.home{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  min-height: 90vh;
+  align-items: center;
+  scroll-behavior: smooth;
+  background: -webkit-linear-gradient(rgb(129, 240, 240),rgb(248, 76, 248)-51%,rgb(104, 104, 236));
+  font-family: 'Nunito', sans-serif;
+}
+.home .content{
+  flex: 1 1 40rem;
+  margin-top: -10rem;
+  padding: 1.5rem;
+}
+.home .image{
+  flex: 1 1 40rem;
+  margin-top: -6rem;
+}
+.home .image img{
+  width: 90%;
+  padding: 1rem;
+  animation: float 4s linear infinite;
+}
+@keyframes float{
+  0%, 100%{
+      transform: translateX(0rem);
+  }
+  50%{
+      transform: translateX(3rem);
+  }
+}
+.home .content h3{
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #faf2f1;
+  animation-name: exp;
+  animation-duration: 4s;
+  position: relative;
+}
+.home .content p{
+  font-size: 2rem;
+  font-weight: 800;
+  color: #f7f2f1;
+  margin: 0;
+  animation-name: exp;
+  animation-duration: 4s;
+  position: relative;
+}
+
+@media only screen and (max-width: 414px) {
+  .home .content{
+      margin-top: -2px;
+  }
+  .home .image{
+      margin-top: -8px;
+  }
+  .home .content h3{
+      font-size: 16px;
+  }
+  .home .content p{
+      font-size: 10px;
+  }
+}
+@keyframes exp {
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:200px; top:200px;}
+  75%  { left:0px; top:200px;}
+  100% { left:0px; top:0px;}
+}
+.instr {
+  text-align: center;
+}
+.loader {
+  position: absolute;
+  top: 50%;left: 50%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 10px solid rgba(110, 5, 209, 0.13);
+  border-top: 10px solid rgb(25, 25, 26);
+  animation: rotate 1.5s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%,-50%) rotate(360deg);
+  }
+}
